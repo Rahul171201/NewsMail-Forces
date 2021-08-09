@@ -1,0 +1,35 @@
+.mainbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.outputbox{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    height: 70vh;
+    box-shadow: (0.15, 0.15, 0.15, rgba(0,0,0,0.28));
+    border-radius: 17px;
+    border-style: solid;
+    margin-top: 15vh;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background-color:#ffa62b;
+}
+.header{
+    font-size: 7vh;
+    color: #0e49b5;
+}
+.sentence{
+    font-size: 3vh;
+    color: #0e49b5;
+}
+.icon{
+    width: 20vw;
+    height: 40vh;
+}
